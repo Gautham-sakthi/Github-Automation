@@ -19,8 +19,9 @@ public class SignInPage extends SeleniumBase {
 
 		WebElement usernname = driver.findElement(By.xpath("//input[@id='login_field']"));
 		WebElement password = driver.findElement(By.xpath("//input[@id='password']"));
-		type(usernname, "gauthamroses@gmail.com");
-		type(password, "gouthampass1996");
+		// enter login credentials
+		type(usernname, "");
+		type(password, "");
 		click(driver.findElement(By.xpath("//input[@name='commit']")), wait);
 
 	}
