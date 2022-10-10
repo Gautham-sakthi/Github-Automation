@@ -8,3 +8,4 @@ The test steps are:
 ->Delete the created repo
 ->Verify the deleted repo
 ->teardown
+NOTE: to run the project you have to give email id and password of github
