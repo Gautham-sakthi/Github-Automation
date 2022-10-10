@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35956" started-at="2022-10-04T18:20:08 IST" finished-at="2022-10-04T18:20:44 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35956" started-at="2022-10-04T18:20:08 IST" finished-at="2022-10-04T18:20:44 IST">
+      <class name="tests.GithubFlow">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.GithubFlow@1786f9d5]" name="setup" is-config="true" duration-ms="10593" started-at="2022-10-04T18:20:08 IST" finished-at="2022-10-04T18:20:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setObject()[pri:0, instance:tests.GithubFlow@1786f9d5]" name="setObject" is-config="true" duration-ms="73" started-at="2022-10-04T18:20:19 IST" finished-at="2022-10-04T18:20:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setObject -->
+        <test-method status="PASS" signature="login()[pri:1, instance:tests.GithubFlow@1786f9d5]" name="login" duration-ms="3570" started-at="2022-10-04T18:20:19 IST" finished-at="2022-10-04T18:20:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createrepo()[pri:2, instance:tests.GithubFlow@1786f9d5]" name="createrepo" duration-ms="18514" started-at="2022-10-04T18:20:22 IST" finished-at="2022-10-04T18:20:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createrepo -->
+        <test-method status="PASS" signature="deleterepo()[pri:3, instance:tests.GithubFlow@1786f9d5]" name="deleterepo" duration-ms="3142" started-at="2022-10-04T18:20:41 IST" finished-at="2022-10-04T18:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleterepo -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.GithubFlow@1786f9d5]" name="teardown" is-config="true" duration-ms="0" started-at="2022-10-04T18:20:44 IST" finished-at="2022-10-04T18:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.GithubFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
