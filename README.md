@@ -9,3 +9,10 @@ The test steps are:
 ->Verify the deleted repo
 ->teardown
 NOTE: to run the project you have to give email id and password of github
+
+Output video:
+
+
+
+https://user-images.githubusercontent.com/23171471/196446421-01b9ceb9-e463-4869-a46d-22fab485f75c.mov
+
