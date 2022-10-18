@@ -1,5 +1,7 @@
 package tests;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -35,7 +37,7 @@ public class GithubFlow extends Common {
 	}
 
 	@Test(priority = 1)
-	public void login() {
+	public void login() throws IOException {
 		homepage.clicksignin();
 		signinpage.login();
 
